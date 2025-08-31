@@ -1,0 +1,329 @@
+html {
+  direction: rtl;
+}
+:root {
+  --main-color: #ff206e;
+  --bg-light-gray: #f1f1f1;
+}
+.nav-item a {
+  margin-inline: 4px;
+  display: block;
+  font-size: 16px !important;
+}
+body {
+  max-width: 100%;
+  overflow-x: hidden !important;
+}
+main {
+  overflow: hidden;
+}
+footer {
+  overflow: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Roboto, sans-serif;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.main-color {
+  color: var(--main-color) !important;
+}
+.main-bg {
+  background-color: var(--bg-light-gray);
+}
+.padding {
+  padding-block: 75px;
+}
+.my-nav {
+  background-color: rgba(0, 100, 0, 0.842);
+}
+.fa-plane {
+  font-size: 66px;
+  display: block;
+  position: absolute;
+  top: 30%;
+  left: 11%;
+}
+.fa-tree {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  font-size: 70px !important;
+}
+.header {
+  background-image: linear-gradient(#0000005e), linear-gradient(#0000002a),
+    url("image/شعار/نادي\ الغابه\ بوابه.jpg");
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.h1-header {
+  font-size: 2.9rem;
+  text-align: center;
+  animation: color 12s infinite;
+}
+@keyframes color {
+  0% {
+    color: #ff206e;
+  }
+  10% {
+    color: #ff206e94;
+  }
+  20% {
+    color: #ff206e50;
+  }
+  30% {
+    color: #ff206e1e;
+  }
+  40% {
+    color: gold;
+  }
+  50% {
+    color: rgba(255, 217, 0, 0.747);
+  }
+  60% {
+    color: rgba(255, 217, 0, 0.486);
+  }
+  70% {
+    color: rgba(255, 217, 0, 0.281);
+  }
+  100% {
+    color: #fff;
+  }
+}
+.header .main-title {
+  color: #fff;
+  font-weight: 900;
+}
+.under-linee {
+  position: relative;
+  display: inline-block;
+}
+.under-linee::after {
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: #0ff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: width 0.7s;
+}
+.under-linee:hover::after {
+  width: 100%;
+}
+.header {
+  position: relative;
+}
+.header-a5bar {
+  bottom: 68%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  background-color: rgba(255, 217, 0, 0.705);
+  padding-block: 3px;
+  position: absolute;
+  direction: ltr;
+}
+.edara-tayaran::after {
+  content: "";
+  animation: edara 12s infinite;
+}
+@keyframes edara {
+  0% {
+    content: "إ";
+  }
+  10% {
+    content: "إد";
+  }
+  20% {
+    content: " إدا";
+  }
+  22% {
+    content: " إدار";
+  }
+  24% {
+    content: " إدارة";
+  }
+  30% {
+    content: " إدا ";
+  }
+  32% {
+    content: "إد ";
+  }
+  33% {
+    content: "و  ";
+  }
+  37% {
+    content: "  ";
+  }
+  38% {
+    content: "  أع ";
+  }
+  40% {
+    content: "  أعضاء ";
+  }
+  42% {
+    content: " أعضاء ال  ";
+  }
+  44% {
+    content: "  أعضاء النا ";
+  }
+  46% {
+    content: " أعضاء النادى ";
+  }
+  60% {
+    content: " أعضاء الناد ";
+  }
+  62% {
+    content: " أعضاء النا ";
+  }
+  64% {
+    content: " أعضاء الن ";
+  }
+  66% {
+    content: " أعضاء ال ";
+  }
+  68% {
+    content: " أعضاء  ";
+  }
+  70% {
+    content: " أعضا  ";
+  }
+  72% {
+    content: " أع  ";
+  }
+  100% {
+    content: "   ";
+  }
+}
+.main-title {
+  position: relative;
+  margin-bottom: 5px;
+}
+.line-one {
+  width: 20%;
+  height: 2px;
+  background-color: #ff206e;
+  position: absolute;
+  bottom: -90%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.line-two {
+  width: 30%;
+  height: 2px;
+  background-color: #ff206e;
+  position: absolute;
+  bottom: -40%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#about {
+  background-image: url(image/شعار/light_dot.jpg);
+}
+#about .carousel-item img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: auto;
+  transform: translateY(50%);
+}
+#about .slide {
+  width: 80%;
+  margin: auto;
+}
+#about .border-title {
+  padding-top: 12px;
+}
+#about .slide {
+  margin-top: 80px;
+}
+.border-title h3 {
+  margin-top: 40px;
+}
+#about .carousel-indicators [data-bs-target] {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  text-indent: 0;
+}
+.slide {
+  background-color: rgba(0, 128, 0, 0.893);
+}
+.circle-carousel img {
+  height: 100%;
+}
+.carousel-indicators [data-bs-target] {
+  height: 8px;
+  background-color: #ff8c00;
+}
+.carousel-item h5 {
+  background-color: #00f;
+  color: #fff;
+}
+.carousel-control-next-icon {
+  width: 3rem;
+  height: 3rem;
+  background-color: #ff206e;
+}
+.carousel-control-prev-icon {
+  width: 3rem;
+  height: 3rem;
+  background-color: #ff206e;
+}
+#cards-news {
+  background-image: url(image/شعار/falling-snow-black-background_78370-4263.jpg);
+}
+.match-card {
+  border-radius: 10px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.tab-content {
+  padding: 20px 0;
+}
+.nav-tabs .nav-link {
+  font-weight: 700;
+}
+.team-logo {
+  width: 50px;
+  height: 50px;
+}
+#matches {
+  background-image: url(image/شعار/light_dot.jpg);
+}
+#matches .matches-title {
+  background-color: #ff206e !important;
+}
+.e3lan-header {
+  padding: 95px;
+}
+#social {
+  background-image: url(image/شعار/footer.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#social .my-icons i {
+  color: #fff;
+  transition: color 0.5s ease-in-out, scale 0.5s ease-in-out;
+}
+#social .my-icons i:hover {
+  color: rgba(0, 0, 255, 0.493);
+  scale: 1.3;
+}

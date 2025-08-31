@@ -1,0 +1,67 @@
+html {
+  direction: rtl;
+}
+body {
+  max-width: 100%;
+  /* overflow-x: hidden !important; */
+}
+
+#header {
+  background-image: url(../image/العاب/Handball-cartoon.jpg);
+  min-height: 100vh;
+}
+
+.padding {
+  padding: 75px;
+}
+/* main-title */
+
+/* End main-title */
+/* table */
+
+.my-table {
+  border: 6px dotted red;
+  text-align: center;
+  background-color: rgba(128, 128, 128, 0.171);
+}
+.my-table td {
+  padding-block: 10px;
+  border-left: 5px dotted red;
+  padding-inline: 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.my-table thead {
+  border-bottom: 5px dotted red;
+  font-size: 22px;
+  font-weight: 900;
+  background-color: aqua;
+}
+
+/* End table */
+/* start Table 1 */
+.my-table-1 tr {
+  border-bottom: solid 1px #000;
+}
+
+/* start back ground section 2 */
+#academy,
+#gehaz {
+  background-image: url(../image/شعار/light_dot.jpg);
+}
+.first-title {
+  transform: translateX(0);
+  animation: 4s move-first-title infinite;
+  font-size: 4rem;
+  font-weight: 900;
+  color: blue;
+}
+
+@keyframes move-first-title {
+  0% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
